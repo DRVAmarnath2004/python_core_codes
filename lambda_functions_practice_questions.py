@@ -1,24 +1,28 @@
 #1.
-# l=[21,22,23,24,25,26]
-# k=list(map(lambda x:(x*9/5)+32,l))
-# print(k)#[69.8, 71.6, 73.4, 75.2, 77.0, 78.8]
+# l=[1,2,3,4,5,6]
+# k=list(map(lambda x:x**3,l))
+# print(k)
 
 #2.
-# l=["Amar","Snadeep","teja","Ganesh","Chiru","Raju"]
-# k=list(filter(lambda x: x[0].isupper() ,l))
-# m=[]
-# m.append(k)
-# print(m)#[['Amar', 'Snadeep', 'Ganesh', 'Chiru', 'Raju']]
+# l=[1,2,10]
+# m=[3,4,5]
+# k=list(map(lambda x,y:x if x>y else y,l,m))
+# print(k)
 
 #3.
-# from functools import reduce
-# l=[1,2,3,4,5]
-# m=reduce(lambda x,y:x*y,l)
-# print(m)#120
+# l=[1,2,3,4,5,6,7,8,9]
+# k=list(map(lambda x:x%2==0,l))
+# print(k)
 
 #4.
-# l=[("Amar",21),("Gowtham",23),("Raju",20),("Sandeep",19)]
-# k=sorted(l,key=lambda x:x[1],reverse=True)
-# print(k)#[('Gowtham', 23), ('Amar', 21), ('Raju', 20), ('Sandeep', 19)]
+# l=[(1,'banana'),(2,'apple'),(3,'cherry')]
+# l.sort(key=lambda x:x[1])
+# print(l)
 
-
+#5.
+# def square(x):
+#     return x * x
+#
+# k = lambda n: square(n)
+# 
+# print(k(5))
