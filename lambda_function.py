@@ -63,3 +63,9 @@ from functools import reduce
 # print(k)#[27, 46, 23, 44, 21, 28] this value is occur is reverse is true means descending order of remainders
 # print(m)#[21, 28, 23, 44, 46, 27] this value is occur is reverse is false means ascending order of remainders
 
+#-------functional references------------------
+#1.
+# count=len
+# l=[1,2,3,4,56,7,8]
+# print(count(l))
+
