@@ -45,7 +45,24 @@
 # k=list(map(lambda x:ord(x),l))
 # print(k)#[65, 109]
 
-#10.
+###10.
 # l=["Amar","Raju"]
 # k=list(filter(lambda x:x,map(lambda x : x not in "AEIOUaeiou",l)))
 # print(l)
+
+#11.
+# from functools import reduce
+# l=['P','y','t','h','o','n']
+# k=reduce(lambda x,y:x+y,l)
+# print(k)#Python
+
+#12.
+# l=[10,350,10,350,20]
+# k=list(map(lambda x:id(x),l))
+# print(k)#[2724096639504, 2724097686096, 2724096639504, 2724097686096, 2724096639824]
+
+#13.
+# from functools import reduce
+# l = [5, 10, 15, 20, 25, 30]
+# k = reduce(lambda x, y: x + y,filter(lambda x: x % 5 == 0,map(lambda x: x**2, l)))
+# print(k)#2275
