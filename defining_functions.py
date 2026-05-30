@@ -11,7 +11,7 @@ print(add(10,20))#30
 
 #3.
 def test():
-    # print("Hello")
+    print("Hello")
 result = test()
 print(result)#Hello None
 
