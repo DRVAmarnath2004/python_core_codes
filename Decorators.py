@@ -40,3 +40,9 @@
 # print(greet.__name__)
 # print(greet.__doc__)
 
+import functools
+
+
+def logger(func):
+    @functools.warps(func)
+    
