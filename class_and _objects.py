@@ -47,23 +47,25 @@
 # car2.display()
 
 #3.
-class Employee:
-    employee_count=0.
-    def __init__(self,name,age,salary):
-        self.name=name
-        self.age=age
-        self.salary=salary
-        Employee.employee_count+=1
-    def display(self):
-        print(f"name:{self.name}")
-        print(f"age:{self.age}")
-        print(f"salary:{self.salary}")
-emp1=Employee("amar",21,500000)
-emp2=Employee("raju",22,600000)
-emp3=Employee("chiru",21,70000)
-emp4=Employee("sohail",21,800000)
-emp1.display()
-emp2.display()
-emp3.display()
-emp4.display()
-print(Employee.employee_count)
+# class Employee:
+#     employee_count=0.
+#     def __init__(self,name,age,salary):
+#         self.name=name
+#         self.age=age
+#         self.salary=salary
+#         Employee.employee_count+=1
+#     def display(self):
+#         print(f"name:{self.name}")
+#         print(f"age:{self.age}")
+#         print(f"salary:{self.salary}")
+# emp1=Employee("amar",21,500000)
+# emp2=Employee("raju",22,600000)
+# emp3=Employee("chiru",21,70000)
+# emp4=Employee("sohail",21,800000)
+# emp1.display()
+# emp2.display()
+# emp3.display()
+# emp4.display()
+# print(Employee.employee_count)
+
+
